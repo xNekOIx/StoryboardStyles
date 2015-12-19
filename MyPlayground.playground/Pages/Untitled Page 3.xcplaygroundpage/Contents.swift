@@ -36,8 +36,8 @@ let storyboardData = ("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\
 let stylesheetData = ("<?xml version=\"1.0\" encoding=\"UTF-8\"?>" +
     "<xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">" +
     
-//    "<xsl:template match=\"//userDefinedRuntimeAttribute[@keyPath='styleClass' and @value='PewPew']\">" +
-    "<xsl:template match=\".\">" +
+    "<xsl:template match=\"//userDefinedRuntimeAttribute[@keyPath='styleClass' and @value='PewPew']\">" +
+//    "<xsl:template match=\"@* | node()\">" +
     "<xsl:copy-of select=\".\"/>" +
 //    "<color></color>" +
 //    "<xsl:copy>" +
